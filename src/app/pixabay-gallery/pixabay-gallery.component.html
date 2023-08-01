@@ -1,0 +1,11 @@
+<div class="search-container">
+    <input class="search-input" type="text" [(ngModel)]="searchTerm" (keyup.enter)="searchImages(searchTerm, 200)"
+        placeholder="Digite sua busca aqui..." />
+    <button class="search-button" (click)="searchImages(searchTerm, 200)">Pesquisar</button>
+</div>
+
+<div class="gallery-container">
+    <div class="gallery-item" *ngFor="let image of images">
+        <img [src]="image.webformatURL" alt="{{ image.tags }}" />
+    </div>
+</div>
