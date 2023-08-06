@@ -1,6 +1,6 @@
 # Galeria de Imagens
 
-Este é um simples aplicativo web gerador de senhas construído com Angular. Ele permite que os usuários gerem senhas com opções personalizadas, como tamanho, caracteres especiais e letras maiúsculas.
+Este é um site web que utiliza a API da Pixabay para gerar imagens. Desfrute de uma experiência única ao acessar o site e ser surpreendido com temas aleatórios cuidadosamente selecionados. No entanto, não se restrinja apenas a isso! Aproveite ao máximo a plataforma usando o campo de pesquisa para encontrar imagens específicas e personalizar sua jornada visual.
 
 ## Demo
 
